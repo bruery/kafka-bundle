@@ -1,7 +1,7 @@
 # KafkaBundle
 ![Alt text](https://raw.githubusercontent.com/bruery/platform/master/src/platform/Resources/img/bruery-logo2.png "Bruery")
 
-Symfony bundle provides that connectivity to Kafka based using rdkafka binding to librdkafka.
+Symfony bundle provides that connectivity to Kafka using rdkafka binding to librdkafka.
 
 ## Documentation
 
