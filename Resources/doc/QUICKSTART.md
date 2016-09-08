@@ -53,7 +53,7 @@ By CLI:
 ```
 
 ### Consume messages out of a Kafka topic:
-Implement [ConsumerInterface](https://github.com/bruery/kafka-bundle)
+Implement [ConsumerInterface](https://github.com/bruery/kafka-bundle/blob/master/Consumer/ConsumerInterface.php)
 ```php
 class MessageHandler implements ConsumerInterface {
 	public function consume($topic, $partition, $offset, $key, $payload) {
