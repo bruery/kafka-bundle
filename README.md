@@ -17,3 +17,5 @@ If you think you find a bug or you have a feature idea to propose, feel free to 
 ## License
 
 This package is available under the [MIT license](LICENSE).
+
+[![knpbundles.com](http://knpbundles.com/bruery/kafka-bundle/badge)](http://knpbundles.com/bruery/kafka-bundle)
