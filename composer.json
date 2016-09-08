@@ -1,0 +1,37 @@
+{
+  "name": "bruery/kafka-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony bundle provides that connectivity to Kafka based using rdkafka binding to librdkafka.",
+  "keywords": ["symfony2", "rdkafka", "Bruery", "librdkafka", "Kafka"],
+  "homepage": "https://bruery.github.io/kafka-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "viktore zara",
+      "email": "viktore.zara@gmail.com",
+      "homepage": "https://github.com/gzilt"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require" : {
+    "php" : ">=5.6",
+    "symfony/framework-bundle" : "~2.3 || ~3.0",
+    "symfony/dependency-injection" : "~2.3 || ~3.0",
+    "symfony/console" : "~2.3 || ~3.0",
+    "symfony/config" : "~2.3 || ~3.0",
+    "symfony/yaml" : "~2.3 || ~3.0",
+    "kwn/php-rdkafka-stubs" : "^0.0.4",
+    "ext-rdkafka" : "*"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "~4.8 || ~5.0"
+  },
+  "autoload": {
+    "psr-4": { "Bruery\\KafkaBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
