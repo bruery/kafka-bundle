@@ -1,5 +1,7 @@
 # KafkaBundle
-![Alt text](https://raw.githubusercontent.com/bruery/platform/master/src/platform/Resources/img/bruery-logo2.png "Bruery")
+<p align="center">
+	<img src="https://raw.githubusercontent.com/bruery/platform/master/src/platform/Resources/img/bruery-logo2.png">
+</p>
 
 Symfony bundle provides that connectivity to Kafka using rdkafka binding to librdkafka.
 
