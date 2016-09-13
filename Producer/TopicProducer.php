@@ -56,7 +56,7 @@ class TopicProducer extends Communicator {
 	 * 		as well as be sent with the message to the broker and passed on to the consumer.
 	 * @throws \Exception
 	 */
-	public function produce($payload, $partition = TopicCommunicator::PARTITION_UA, $key = null) {
+	public function produce($payload, $partition = Communicator::PARTITION_UA, $key = null) {
 		if (true !== $this->isProducing) {
 			throw new \Exception ("Please call produceStart first to start producing message");
 		}
