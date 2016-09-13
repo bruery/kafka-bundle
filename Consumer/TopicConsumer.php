@@ -31,7 +31,7 @@ class TopicConsumer extends Communicator {
 	 * @param string $offset, @see Offset constants
 	 * @throws \Exception
 	 */
-	public function consumeStart($offset = TopicCommunicator::OFFSET_BEGINNING, $partition = 0) {
+	public function consumeStart($offset = Communicator::OFFSET_BEGINNING, $partition = 0) {
 		if ($this->isConsuming === true) {
 			throw new \Exception("This topic is already consuming");
 		}
@@ -54,7 +54,7 @@ class TopicConsumer extends Communicator {
 	 */
 	public function consume($consumer, $partition = 0, $timeoutInMs = 1000) {
 		if ($consumer === null) {
-			throw new \Exception ("Mo Consumer impl defined");
+			throw new \Exception ("No Consumer impl defined");
 		}
 		if (true !== $this->isConsuming) {
 			throw new \Exception ("Please call consumeStart first to start consuming message");

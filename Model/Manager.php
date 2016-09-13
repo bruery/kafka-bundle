@@ -9,6 +9,9 @@
 
 namespace Bruery\KafkaBundle\Model;
 
+use Bruery\KafkaBundle\Producer\TopicProducer;
+use Bruery\KafkaBundle\Consumer\TopicConsumer;
+
 class Manager {
 
 	/**
