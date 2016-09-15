@@ -21,6 +21,7 @@ class DefaultConsumer implements ConsumerInterface {
      * @throws \Exception
      */
     public function consume($topic, $partition, $offset, $key, $payload) {
-
+        //echo "Received payload: " . $payload . PHP_EOL;
+        dump($payload);
     }
 }
