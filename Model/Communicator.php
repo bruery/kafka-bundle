@@ -59,6 +59,9 @@ abstract class Communicator {
 		$topicConf = new TopicConf();
 		if (null !== $props) {
 			foreach ($props as $name => $value) {
+			    if($value === false) {
+			        $value = 0;
+                }
 				$topicConf->set(str_replace("_", ".", $name), $value);
 			}
 		}
